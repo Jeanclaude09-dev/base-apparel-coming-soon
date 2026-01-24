@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Josefin Sans";
+  src: url(assets/font/JosefinSans-VariableFont_wght.ttf);
+}
+
+@theme {
+  /* ====== COLOR ====== */
+
+  --Pink-400: hsl(0, 36%, 70%);
+  --Red-500: hsl(0, 93%, 68%);
+  /* Neutral */
+  --Gray-900: hsl(0, 6%, 24%);
+  /* Gradients */
+  --gradient-first: Linear, 135deg, from hsl(0, 0%, 100%), to hsl(0, 100%, 98%);
+  --gradient-second: Linear, 135deg, from hsl(0, 80%, 86%), to hsl(0, 74%, 74%);
+  /* ====== TYPOGRAPHY ====== */
+
+  --font-josefin-sans: "Josefin Sans", sans-serif;
+}
