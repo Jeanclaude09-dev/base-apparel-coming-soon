@@ -14,14 +14,27 @@
 @theme {
   /* ====== COLOR ====== */
 
-  --Pink-400: hsl(0, 36%, 70%);
-  --Red-500: hsl(0, 93%, 68%);
+  --color-pink-400: hsl(0, 36%, 70%);
+  --color-red-500: hsl(0, 93%, 68%);
   /* Neutral */
-  --Gray-900: hsl(0, 6%, 24%);
+  --color-gray-900: hsl(0, 6%, 24%);
   /* Gradients */
-  --gradient-first: Linear, 135deg, from hsl(0, 0%, 100%), to hsl(0, 100%, 98%);
-  --gradient-second: Linear, 135deg, from hsl(0, 80%, 86%), to hsl(0, 74%, 74%);
+  --color-gradient-first:
+    Linear, 135deg, from hsl(0, 0%, 100%), to hsl(0, 100%, 98%);
+  --color-gradient-second:
+    Linear, 135deg, from hsl(0, 80%, 86%), to hsl(0, 74%, 74%);
   /* ====== TYPOGRAPHY ====== */
 
   --font-josefin-sans: "Josefin Sans", sans-serif;
+}
+main {
+  background: url(assets/images/bg-pattern-desktop.svg);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
 }
