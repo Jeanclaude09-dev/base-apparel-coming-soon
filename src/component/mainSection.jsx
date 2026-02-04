@@ -77,7 +77,7 @@ function MainSection() {
               <button
                 type="submit"
                 disabled={loading}
-                className="bg-gradient-second  px-8 py-3.5 cursor-pointer rounded-full -translate-x-16 hover:scale-[1.1] hover:shadow-lg hover:shadow-pink-400 hover:bg-gradient-first transition-all duration-200  disabled:cursor-not-allowed max-sm:px-4 max-sm:-translate-x-14"
+                className="bg-gradient-second  px-8 py-3.5 cursor-pointer rounded-full -translate-x-16 hover:scale-[1.1] hover:shadow-lg hover:shadow-pink-400 transition-all duration-200  disabled:cursor-not-allowed max-sm:px-4 max-sm:-translate-x-14"
               >
                 {loading ? (
                   <LoaderCircle color="white" className="animate-spin" />
