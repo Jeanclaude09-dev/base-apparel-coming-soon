@@ -19,10 +19,16 @@
   /* Neutral */
   --color-gray-900: hsl(0, 6%, 24%);
   /* Gradients */
-  --color-gradient-first:
-    Linear, 135deg, from hsl(0, 0%, 100%), to hsl(0, 100%, 98%);
-  --color-gradient-second:
-    Linear, 135deg, from hsl(0, 80%, 86%), to hsl(0, 74%, 74%);
+  --background-image-gradient-first: linear-gradient(
+    135deg,
+    hsl(0, 0%, 100%),
+    hsl(0, 100%, 98%)
+  );
+  --background-image-gradient-second: linear-gradient(
+    135deg,
+    hsl(0, 80%, 86%),
+    hsl(0, 74%, 74%)
+  );
   /* ====== TYPOGRAPHY ====== */
 
   --font-josefin-sans: "Josefin Sans", sans-serif;

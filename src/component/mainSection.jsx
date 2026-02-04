@@ -38,13 +38,13 @@ function MainSection() {
   }
 
   return (
-    <section className="min-h-screen flex  ">
-      <section className="flex-[0.7] flex flex-col gap-32 py-8  px-16">
+    <section className="min-h-screen flex  max-sm:flex-col ">
+      <section className="flex-[0.7] flex flex-col gap-32 py-8 px-16 max-sm:py-4 max-sm:px-3 max-sm:text-center">
         <div>
           <img src={logo} alt="Base Apparel logo" />
         </div>
         <div className="flex flex-col gap-5 ">
-          <h1 className="text-8xl text-bold max-w-md tracking-widest leading-tight uppercase">
+          <h1 className="text-8xl text-bold max-w-md tracking-widest leading-tight uppercase max-sm:text-6xl">
             <span className="text-pink-400 font-light">We're</span> coming soon
           </h1>
           <p className="text-pink-400 text-2xl">
@@ -77,7 +77,7 @@ function MainSection() {
               <button
                 type="submit"
                 disabled={loading}
-                className="bg-[linear-gradient(135deg,hsl(0,80%,86%),hsl(0,74%,74%))] text-black px-8 py-3.5 cursor-pointer rounded-full -translate-x-16 hover:scale-[1.1] hover:shadow-lg hover:shadow-pink-400 hover:bg-[linear-gradient(135deg,hsl(0, 0%, 100%),hsl(0, 100%, 98%))] transition-all duration-200  disabled:cursor-not-allowed "
+                className="bg-gradient-second  px-8 py-3.5 cursor-pointer rounded-full -translate-x-16 hover:scale-[1.1] hover:shadow-lg hover:shadow-pink-400 hover:bg-gradient-first transition-all duration-200  disabled:cursor-not-allowed max-sm:px-4 max-sm:-translate-x-14"
               >
                 {loading ? (
                   <LoaderCircle color="white" className="animate-spin" />
